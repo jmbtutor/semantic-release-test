@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "",
   "main": "index.js",
@@ -29,7 +29,7 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       "@semantic-release/npm",
-      "@smenatic-release/git",
+      "@semantic-release/git",
       "@semantic-release/github"
     ]
   }
