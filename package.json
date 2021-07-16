@@ -18,9 +18,19 @@
   },
   "homepage": "https://github.com/jmbtutor/semantic-release-test#readme",
   "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
     "semantic-release": "^17.4.4"
   },
   "release": {
-    "branches": ["master"]
+    "branches": [
+      "master"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@smenatic-release/git",
+      "@semantic-release/github"
+    ]
   }
 }
