@@ -18,5 +18,8 @@
   "homepage": "https://github.com/jmbtutor/semantic-release-test#readme",
   "devDependencies": {
     "semantic-release": "^17.4.4"
+  },
+  "release": {
+    "branches": ["master"]
   }
 }
